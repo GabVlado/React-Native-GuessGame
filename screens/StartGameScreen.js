@@ -32,7 +32,16 @@ const styles = StyleSheet.create({
     inputContainer:{
         width: 300,
         maxWidth: '80%',
-        alignItems: 'center' // Ejes horizontales 
+        alignItems: 'center' , // Ejes horizontales 
+        shadowColor: 'black',
+        shadowOffset: {width: 0, height: 2},     // todos los shadowProperties sirven para IOS
+        shadowRadius: 6,
+        shadowOpacity: 0.26, 
+        backgroundColor: 'white',  // Hay que asegurar que el fondo es blanco 
+        elevation: 5 , // Solo para android 
+        padding: 20,
+        borderRadius: 10
+
     },
     buttonContainer:{
         flexDirection: 'row',
